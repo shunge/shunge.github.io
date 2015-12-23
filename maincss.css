@@ -1,0 +1,72 @@
+.container-fliud{
+    background-color: #F6F4F0;
+}
+
+.Title {
+    padding-top:30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    color:white;
+    background-color: #91989F;
+}
+
+.Title h1{
+    font-size: 60px;
+}
+
+.profile p{
+    font-size: 30px;
+    background-color: #B481BB;
+    padding: 80px;
+    color: white;
+
+}
+
+.manu{
+	color:#F6C555;
+}
+
+.img1{
+    width: 100%;
+
+}
+
+.name{
+    color:white;
+    background-color:#72636E;
+    margin: auto;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Century Gothic, sans-serif;
+    font-weight: bold;
+}
+ul {
+
+    margin: -30px;
+    padding: 0;
+
+    background-color:#FCFAF2;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+
+    overflow: auto;
+}
+
+li a {
+	display:block;
+	padding: 30px 20px 30px 50px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #3A8FB7;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color:#24936E;
+    color: white;
+}
+
