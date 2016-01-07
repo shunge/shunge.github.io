@@ -15,10 +15,27 @@
 }
 
 .profile p{
+    margin: 00;
     font-size: 30px;
     background-color: #B481BB;
-    padding: 80px;
+    padding-top:30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
     color: white;
+
+}
+
+.col-sm-10 div:hover, .profile p:hover{
+    background-color: white;
+    color: black;
+}
+
+.ending{
+    padding-top:30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    color:white;
+    background-color: #F19483;
 
 }
 
@@ -61,12 +78,12 @@ li a {
 }
 
 li a.active {
-    background-color: #3A8FB7;
+    background-color: #563F2E;
     color: white;
 }
 
 li a:hover:not(.active) {
-    background-color:#24936E;
+    background-color:#0F2540;
     color: white;
 }
 
