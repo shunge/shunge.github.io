@@ -1,60 +1,83 @@
-
 <html lang="en" data-ember-extension="1">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">			
 	<title> Yishun </title>
+    <meta name="viewport" content="user-scalable=no">
+    <meta name="robots" content="index, follow">
+<link href="https://fonts.googleapis.com/css?family=Bitter|Slabo+27px" rel="stylesheet">
+    <style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-rendering: optimizeLegibility;
+    }
+    html, body {
+        font-family: 'Bitter', serif;
+        width: 100%;
+        height: auto;
+        color: #FFF;
+        background: #FFF;
+        /* overflow: hidden; */
+    }
+    h1 {
+        margin: 100px 10%;
+        max-width: 850px;
+    }
+    h1, a {
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 53px;
+        letter-spacing: 1.5px;
+        text-decoration: none;
+        color: #000;
+    }
+    a.link {
+        position: fixed;
+        bottom: 30px;
+        right: 40px;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 1;
 
-	<link rel="stylesheet" type="text/css" href="maincss.css">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    }
+    a.mail {
+        border-bottom: 2px solid #000;
+    }
+    a.site, i {
+        font-style: italic;
+    }
+    a:hover {
+        text-decoration: none;
+        outline: none;
+        border: none;
+    }
+    time {
+        position: fixed;
+        top: 30px;
+        right: 40px;
+        min-width: 140px;
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 1.5px;
+        text-align: right;
+    }
+    </style>
 </head>
-
-
-<body class="container-fliud">
-	<div class="row">
-		<div class="col-sm-2">
-			<div class = "nav">
-				<ul class = "manu">
-					<li class= "corner">
-						<div class= "name">
-							Yishun Guan
-						</div>
-					</li>
-					<li><a class = "active" href="index.html">About me</a></li>
-					<li><a href="resume.pdf">Resume</a></li>
-					<li><a href="mailto:gyishun@gmail.com">Email Me</a></li>
-				</ul>
-			</div>
-		</div>
-		<div class="col-sm-10">
-			<div class = "Title text-center">
-				<h1>Hello!</h1>
-				<p>I'm Yishun, a young programmer.</p>
-			</div>
-
-			<img class = "img1" src = "cut.jpg">
-
-			<div class="profile">
-			<p>Currently studying Computer Science at University of California, San Diego. As a second year, the top priority for me now is to gain more experiences, and master the fundamental skills. I am interested in a variety of computer science related fields.</p>
-			</div>
-
-			<img class = "img1" src = "key.jpg">
-
-			<div class="ending">
-			<p>
-			</p>
-			</div>
-
-
-		</div>
-
-
-		<div class = "profile">
-
-		</div>
-	</div>
-</body>
-
-
+<body>
+    <h1>Hello!<br>I’m currently studying Computer Science at UC San Diego.
+    	<br><br> I'm interested in: <br>
+    	<a href="https://github.com/shunge/RESTAPP" class="mail"><i>Software Development</i></a><br>
+    	<a href="https://github.com/shunge/YstOS" class="mail"><i>System Design</i></a><br>
+    	<a href="https://github.com/shunge/KNN-NBA-Draft-Prediction" class="mail"><i>Machine Learning</i></a><br>
+    	<a href="https://github.com/shunge/DinoSnores" class="mail"><i>Web Application Development</a></i><br>
+    	And a lot of other technologies!
+    	<br><br>You can contact me at: <a href="mailto:gyishun@gmail.com" class="mail">gyishun@gmail.com</a><br><br>Thank you.</h><br>
+    	<a><i>Yishun Guan</i></a>
+    	<a href="https://github.com/shunge" class="link">@github</a>
+	<!-- courtesy to http://code.nath.co，let me know if I am violating any copyrights. Thanks! -->
 </html>
